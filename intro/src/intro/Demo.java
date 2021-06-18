@@ -16,7 +16,7 @@ public class Demo {
 	driver.get("https://www.facebook.com/");
 	
 	driver.findElement(By.id("email")).sendKeys("m.vageeshjajur@gmail.com");
-	driver.findElement(By.id("pass")).sendKeys("9620602353");
+	driver.findElement(By.id("pass")).sendKeys("9620602");
 	
 	
 	driver.close();
