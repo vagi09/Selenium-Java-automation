@@ -1,16 +1,22 @@
 package SeleniumPractice;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class IMDBLogin {
-
+	static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");	
 
-		WebDriver driver=new ChromeDriver();
+		driver=new ChromeDriver();
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		
 		//System.setProperty("webdriver.edge.driver", "C:\\Users\\VAGI\\git\\Selenium-Java-automation\\intro\\driver\\EdgeDriver");
 		//WebDriver driver = new EdgeDriver();
