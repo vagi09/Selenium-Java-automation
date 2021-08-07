@@ -1,0 +1,61 @@
+2021-07-22 19:17:17,438  INFO [main] demoLogin:28 - Launching Chrome Brwoser
+2021-07-22 19:17:21,706  INFO [main] demoLogin:34 - Entering Applicatoin URl
+2021-07-22 19:17:23,589  INFO [main] demoLogin:28 - Launching Chrome Brwoser
+2021-07-22 19:17:28,305  INFO [main] demoLogin:34 - Entering Applicatoin URl
+2021-07-22 19:18:56,482  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:19:02,524  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:19:02,547  INFO [main] demoLogin:46 - Login Page Title is===> Login Page
+2021-07-22 19:19:05,164  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:19:09,571  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:20:39,061  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:20:44,017  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:20:44,018  WARN [main] demoLogin:37 - This is just warning
+2021-07-22 19:20:44,035  INFO [main] demoLogin:47 - Login Page Title is===> Login Page
+2021-07-22 19:20:45,932  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:20:50,546  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:20:50,547  WARN [main] demoLogin:37 - This is just warning
+2021-07-22 19:23:28,836  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:23:34,838  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:23:34,839  WARN [main] demoLogin:37 - This is just warning
+2021-07-22 19:23:34,839 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-07-22 19:23:34,839 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-07-22 19:23:34,858  INFO [main] demoLogin:49 - Login Page Title is===> Login Page
+2021-07-22 19:23:37,237  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:23:44,030  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:23:44,031  WARN [main] demoLogin:37 - This is just warning
+2021-07-22 19:23:44,032 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-07-22 19:23:44,032 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-07-22 19:25:29,206  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:25:33,902  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:25:33,903  WARN [main] demoLogin:37 - This is just warning
+2021-07-22 19:25:33,903 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-07-22 19:25:33,904 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-07-22 19:25:33,914  INFO [main] demoLogin:48 - *******Starting Test case1*******
+2021-07-22 19:25:33,920  INFO [main] demoLogin:51 - Login Page Title is===> Login Page
+2021-07-22 19:25:35,981  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-22 19:25:40,375  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-22 19:25:40,375  WARN [main] demoLogin:37 - This is just warning
+2021-07-22 19:25:40,376 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-07-22 19:25:40,376 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-07-22 19:25:40,379  INFO [main] demoLogin:60 - *******Starting Test Case2******
+2021-07-23 16:22:26,508  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-07-23 16:22:45,178  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-07-23 16:22:45,179  WARN [main] demoLogin:37 - This is just warning
+2021-07-23 16:22:45,180 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-07-23 16:22:45,180 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-07-23 16:22:45,190  INFO [main] demoLogin:48 - *******Starting Test case1*******
+2021-07-23 16:22:45,198  INFO [main] demoLogin:51 - Login Page Title is===> Login Page
+2021-07-23 16:22:48,597  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-08-01 00:36:31,448  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-08-01 00:36:37,700  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-08-01 00:36:37,700  WARN [main] demoLogin:37 - This is just warning
+2021-08-01 00:36:37,701 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-08-01 00:36:37,701 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-08-01 00:36:37,716  INFO [main] demoLogin:48 - *******Starting Test case1*******
+2021-08-01 00:36:37,727  INFO [main] demoLogin:51 - Login Page Title is===> Login Page
+2021-08-01 00:36:42,194  INFO [main] demoLogin:30 - Launching Chrome Brwoser
+2021-08-01 00:36:46,786  INFO [main] demoLogin:36 - Entering Applicatoin URl
+2021-08-01 00:36:46,786  WARN [main] demoLogin:37 - This is just warning
+2021-08-01 00:36:46,787 FATAL [main] demoLogin:38 - Hey This is jsut fatal error
+2021-08-01 00:36:46,787 DEBUG [main] demoLogin:39 - This is Debug not error
+2021-08-01 00:36:46,790  INFO [main] demoLogin:60 - *******Starting Test Case2******
