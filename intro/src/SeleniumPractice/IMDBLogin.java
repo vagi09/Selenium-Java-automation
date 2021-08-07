@@ -31,8 +31,7 @@ public class IMDBLogin {
 
 		} else if (browserName.equals("FF")) {
 
-			System.setProperty("webdriver.gecko.driver",
-					"C:/Users/VAGI/git/Selenium-Java-automation/intro/driver/geckodriver/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","./driver/geckodriver/geckodriver.exe");
 
 			driver = new FirefoxDriver();
 		}
@@ -59,6 +58,7 @@ public class IMDBLogin {
 		// Test Scenario
 		String PageTitle = driver.getTitle();
 		System.out.println("Title of the Page is: " + PageTitle);
+		System.out.println(driver.getCurrentUrl());
 
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
