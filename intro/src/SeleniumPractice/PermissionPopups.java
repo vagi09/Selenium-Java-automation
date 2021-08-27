@@ -27,7 +27,7 @@ public class PermissionPopups {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
-		// options.addArguments("disable-notifications");
+		// options.addArguments("disable-notifications"); 
 		// options.addArguments("disable-geolocation");
 		// options.addArguments("disable-media-stream");
 		ChromeDriver driver = new ChromeDriver(options);

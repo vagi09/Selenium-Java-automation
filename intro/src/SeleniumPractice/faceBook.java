@@ -1,10 +1,11 @@
 package SeleniumPractice;
 
-import java.util.concurrent.TimeUnit;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class faceBook {
 	static WebDriver driver;
@@ -13,13 +14,15 @@ public class faceBook {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\VAGI\\git\\Selenium-Java-automation\\intro\\driver\\ChromeDrvier92v\\chromedriver.exe");	
 
 		driver=new ChromeDriver();
-//		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-//		driver.manage().deleteAllCookies();
-
 		
-		driver.get("https://en-gb.facebook.com/");
+	
+		driver.manage().window().maximize();
+		
+
+		driver.navigate().to("https://en-gb.facebook.com/");
+//		driver.get("https://en-gb.facebook.com/"); both works
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//img[@class='fb_logo _8ilh img']")).isDisplayed());
 		driver.getTitle();
 		driver.getCurrentUrl();
 		driver.getPageSource();

@@ -1,23 +1,23 @@
 package SeleniumPractice;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.support.ui.Select;
 
-public class dropDownGeneric {
+import q.config.TestBase;
 
-	static WebDriver driver;
+public class dropDownGeneric extends TestBase {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+//		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
-		driver.get("https://www.orangehrm.com/open-source/demo/");
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
 
+		initilizatoin();
 		By country = By.id("Form_submitRequest_Country");
 		By industry = By.id("Form_submitRequest_Industry");
 		By emp = By.id("Form_submitRequest_No_of_Employees");
@@ -64,6 +64,7 @@ public class dropDownGeneric {
 	}
 
 	public static void doSelectDropDownByIndex(By locator, int index) {
+
 		Select select = new Select(getElement(locator));
 		select.selectByIndex(index);
 	}

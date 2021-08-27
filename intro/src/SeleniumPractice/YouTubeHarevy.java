@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class google extends webDriver{ //inheritance
+public class YouTubeHarevy extends FirstScript{ //inheritance
 
 	public static void main(String[] args) throws InterruptedException {
 
